@@ -2,22 +2,14 @@ import { Grid } from '@mui/material';
 import {
   ThemeProvider,
   StyledEngineProvider,
-  createTheme,
-  adaptV4Theme
+  createTheme
 } from '@mui/material/styles';
 import React, { Component } from 'react';
 import MaterialTable from '../src';
 
 let direction = 'ltr';
 // direction = 'rtl';
-const theme = createTheme(
-  adaptV4Theme({
-    direction: direction,
-    palette: {
-      mode: 'light'
-    }
-  })
-);
+const theme = createTheme();
 
 const bigData = [];
 for (let i = 0; i < 1; i++) {

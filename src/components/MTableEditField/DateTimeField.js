@@ -1,10 +1,9 @@
+import { DateTimePicker, LocalizationProvider } from '@mui/x-date-pickers';
 import React from 'react';
-import DateFnsUtils from '@date-io/date-fns';
-import { LocalizationProvider, DateTimePicker } from '@mui/x-date-pickers';
 
 function DateTimeField({ forwardedRef, ...props }) {
   return (
-    <LocalizationProvider dateAdapter={DateFnsUtils} locale={props.locale}>
+    <LocalizationProvider locale={props.locale}>
       <DateTimePicker
         {...props}
         ref={forwardedRef}
