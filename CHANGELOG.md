@@ -1,3 +1,9 @@
+### 6.5.0 (2025-06-30)
+
+##### Other Changes
+
+- material-table-core/core ([73a83c0d](https://github.com/material-table-core/core/commit/73a83c0da413e34e446456f2646e4e61b02cc7cf))
+
 ## 7.0.0 (2025-06-30)
 
 ##### Other Changes
