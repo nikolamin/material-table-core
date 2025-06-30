@@ -1,5 +1,5 @@
 {
-  "name": "@material-table/core",
+  "name": "@ebarmk/material-table-core",
   "publishConfig": {
     "access": "public"
   },
